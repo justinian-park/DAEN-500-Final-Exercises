@@ -1,0 +1,13 @@
+> myCourses <- c("MATH 180A", "MATH 181", "MATH 109", "ECON 120A", "ECON 120B", "ECON 120C", "MATH 170", "JUDA 101", "DAEN 500", "MATH 120")
+> length(myCourses)
+[1] 10
+> myCourses[1:2]
+[1] "MATH 180A" "MATH 181" 
+> myCourses[3:4]
+[1] "MATH 109"  "ECON 120A"
+> sort(myCourses, decreasing = FALSE)
+ [1] "DAEN 500"  "ECON 120A" "ECON 120B" "ECON 120C" "JUDA 101" 
+ [6] "MATH 109"  "MATH 120"  "MATH 170"  "MATH 180A" "MATH 181" 
+> sort(myCourses, decreasing = TRUE)
+ [1] "MATH 181"  "MATH 180A" "MATH 170"  "MATH 120"  "MATH 109" 
+ [6] "JUDA 101"  "ECON 120C" "ECON 120B" "ECON 120A" "DAEN 500" 
