@@ -1,0 +1,11 @@
+lower_bound = int(input('Enter the first number: '))
+upper_bound = int(input('Enter the second number: '))
+num_count = lower_bound
+
+if num_count > upper_bound:
+    print('Invalid range.')
+
+while num_count <= upper_bound:
+    if ((num_count % 7) == 0) & ((num_count % 5) != 0):
+        print(num_count)
+    num_count += 1 
