@@ -1,0 +1,16 @@
+class StringChange:
+    def __init__(self):
+        self.user_string = ''
+        
+    def getString(self):
+        return self.user_string
+
+    def printString(self):
+        return self.user_string.upper()
+
+string1 = StringChange()
+my_string = input('Enter the string:\n')
+string1.user_string = my_string
+
+print('Result using getString method: {}'.format(string1.getString()))
+print('Result using printString method: {}'.format(string1.printString()))
